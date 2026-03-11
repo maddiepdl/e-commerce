@@ -1,12 +1,15 @@
 import NavBar from './components/NavBar.jsx'
 import Hero from './pages/Hero.jsx'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-      <Hero />
-    </div>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+      </Routes>
+    </>
   )
 }
 
