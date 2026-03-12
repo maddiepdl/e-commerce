@@ -8,7 +8,7 @@ export default function Hero() {
       <img
         src="https://t4.ftcdn.net/jpg/08/09/06/47/360_F_809064763_vtmSFmD2MXjOdGx9oDHTH24CjOUCEAUJ.jpg"
         alt="plants"
-        className="mx-auto mt-6 max-w-full h-auto"
+        className="mx-auto mt-6 max-w-full h-auto rounded-md"
       />
     </main>
   )
